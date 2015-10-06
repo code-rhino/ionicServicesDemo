@@ -1,0 +1,12 @@
+<ion-view view-title="{{locationH.name}}">
+  <ion-content class="padding">
+    <p>
+      {{locationH.address}}<br/>
+      {{locationH.todaysHoursOfOps}}<br/>
+      {{locationH.cuisineType}}
+      <div style="float:left;" ng-repeat="star in Stars">
+      *
+      </div>
+    </p>
+  </ion-content>
+</ion-view>
